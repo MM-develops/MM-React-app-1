@@ -1,0 +1,110 @@
+[
+    {
+        "date": 24,
+        "name": "Hiking trip",
+        "description": "Hiking trip to your local hill",
+        "user": true
+    },
+    {
+        "date": 25,
+        "name": "Surfing trip",
+        "description": "Catch waves at the beach",
+        "user": false
+    },
+    {
+        "date": 26,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 27,
+        "name": "Hiking trip",
+        "description": "Hiking trip to your local hill",
+        "user": false
+    },
+    {
+        "date": 28,
+        "name": "Surfing trip",
+        "description": "Catch waves at the beach",
+        "user": true
+    },
+    {
+        "date": 29,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 30,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 1,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": true
+    },
+    {
+        "date": 2,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 3,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 4,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 5,
+        "name": "Hiking trip",
+        "description": "Hiking trip to your local hill",
+        "user": true
+    },
+    {
+        "date": 6,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 7,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 8,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 9,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": false
+    },
+    {
+        "date": 10,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": true
+    },
+    {
+        "date": 11,
+        "name": "Training",
+        "description": "Training session at the gym",
+        "user": true
+    }
+]
