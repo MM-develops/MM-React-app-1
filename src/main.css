@@ -70,7 +70,7 @@ button{
     font-size: 15px;
     font-family: 'Raleway';
     width: var(--content-width);
-    padding: 5px 10px;
+    padding: 5px 30px;
     margin-bottom: 10px;
     border: 2px solid var(--text-color);
     border-radius: 15px;
@@ -118,17 +118,17 @@ body, html{
     align-items: center;
 }
 .logo{
-    width: 53px;
-    height: 53px;
+    width: 40px;
+    height: 40px;
     margin: 10px;
     border-radius: 100%;
     background-color: lightgray;
 }
 .menu, .menu::before, .menu::after{
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
-    margin: 20px 0;
+    margin: 15px 0;
     position: relative;
     background-color: var(--text-color);
 }
@@ -156,4 +156,46 @@ body, html{
 }
 .card h3, .card h4{
     margin: 0;
+}
+
+.announcement{
+    background-color: var(--text-color);
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    transition: 0.5s ease all;
+}
+.announcement h4, .announcement p{
+    color: var(--background-color);
+    margin: 0.3em 0;
+}
+.announcement a{
+    color: var(--background-color);
+    text-decoration: underline;
+}
+.announcement.opened{ 
+    position: fixed;
+    bottom: 0;
+}
+.close-announcement{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: auto;
+    background-color: transparent;
+}
+.close-announcement::before, .close-announcement::after{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: var(--background-color);
+    position: absolute;
+    top: calc(50% - 1px);
+}
+.close-announcement::before{
+    transform: rotateZ(45deg);
+}
+.close-announcement::after{
+    transform: rotateZ(-45deg);
 }
